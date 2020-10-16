@@ -24,5 +24,5 @@ module.exports = opts => {
 
   return router
     .get('/:resource/:id/:nested', get)
-    .post('/:resource/:id/:nested', post)
+    .post('/:resource/:id/:nested', get)
 }

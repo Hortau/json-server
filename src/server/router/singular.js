@@ -55,7 +55,7 @@ module.exports = (db, name, opts) => {
   router
     .route('/')
     .get(show)
-    .post(create, w)
+    .post(show)
     .put(update, w)
     .patch(update, w)
 
