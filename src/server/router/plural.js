@@ -347,7 +347,7 @@ module.exports = (db, name, opts) => {
   router
     .route('/')
     .get(list)
-    .post(create, w)
+    .post(list)
 
   router
     .route('/:id')
